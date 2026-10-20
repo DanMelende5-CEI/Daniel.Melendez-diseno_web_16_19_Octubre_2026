@@ -24,4 +24,5 @@ h2 {
 
 #parrafo {
     font-style: italic;
+    border-left: 2px solid black;
 }
