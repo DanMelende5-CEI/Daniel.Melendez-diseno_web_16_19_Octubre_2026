@@ -11,13 +11,15 @@ img{
 }
 /* A */
 .a{
-    background-color: rgba(65, 15, 74, 0.05);
+    background-color: #fbfbfb;
+
     padding: 48px 0;
 
 }
 
 .a__block{
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     gap: 48px;
     align-items: center;
@@ -27,13 +29,82 @@ img{
 }
 
 .a__img{
-width: 100%;
+flex: 1 1 300px;
 }
 
 .a__content{
-    width: 100%;
+    flex: 1 1 300px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 16px;
+}
+
+/* B */
+.b{
+    background-color: #fbfbfb;
+    padding: 48px 0;
+
+}
+
+.b__block{
+    display: flex;
+    margin: 0 auto;
+    gap: 16px;
+    padding: 16px;
+    max-width: 920px;
+    flex-wrap: wrap;
+
+}
+
+.b__card{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    flex: 1 1 285px;
+    background-color: white;
+}
+
+/* C */
+
+.c{
+    background-color: #fbfbfb;
+    padding: 48px 0;
+}
+
+
+.c__block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 920px;
+    gap: 32px;
+    padding: 16px;
+}
+
+.c__cards{
+    display: flex;
+    padding: 16px 0;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.c__card{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    flex: 1 1 300px;
+
+
+}
+
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    padding: 16px 32px;
+    align-self: flex-start;
 }
