@@ -9,6 +9,11 @@ img{
     width: 100%;
     max-width: 100%;
 }
+
+a{
+    text-decoration: none;
+    color: inherit
+}
 /* A */
 .a{
     background-color: #fbfbfb;
@@ -96,15 +101,153 @@ flex: 1 1 300px;
     padding: 16px;
     gap: 16px;
     flex: 1 1 300px;
-
-
 }
 
 .btn{
-    text-decoration: none;
+    
     background-color: black;
     color: white;
     border-radius: 100px;
     padding: 16px 32px;
-    align-self: flex-start;
+    align-self: start;
+}
+
+ /* D */
+.d{
+    padding: 48px;
+    background-color: #fbfbfb;
+}
+
+.d__block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 920px;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.d__block__text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d__cards{
+    display: flex;
+    padding: 16px 0;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.d__card{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    flex: 1 1 300px;
+}
+
+.d__head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.d__foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.link {
+    font-weight: 800;
+}
+
+/* E */
+
+.e{
+    background-color: #fbfbfb;
+    padding: 48px 0;
+}
+
+.e__block{
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    padding: 16px;
+    gap: 48px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.e__content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px ;
+    
+  
+}
+
+
+.e__texts{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.e_text{
+    flex: 1 1 300px;
+}
+
+
+/* F */
+
+.f{
+    background-color: #fbfbfb;
+    padding: 48px 0;
+}
+
+.f__block{
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    padding: 16px;
+    gap: 48px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.f__images{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+
+}
+
+.f__image{
+    flex: 1 1 300px;
+}
+
+.f__content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.f__texts{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.f__text{
+    flex: 1 1 300px;
+}
+
+.f__row {
+    text-align: center;
+    flex: 1 1 300px;
+    align-self: center;
 }
