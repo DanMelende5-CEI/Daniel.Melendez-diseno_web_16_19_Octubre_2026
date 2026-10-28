@@ -306,11 +306,12 @@ a {
   gap: 16px;
   margin: 0 auto;
   background-color: #a0a0a00d;
-
 }
 
 .h__content {
+  background-color: ;
   display: flex;
+  padding: 16px 0;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -326,18 +327,16 @@ a {
 .h__left {
   display: flex;
   flex-direction: column;
-  gap: 16px;
   background-color: #eceaed;
-  flex: 1 1 250px;
+  flex: 1 1 300px;
 }
 
 .h__right {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  justify-content: space-around;
   align-items: center;
-  flex: 1 1 250px;
+  flex: 1 1 300px;
 }
 
 .h__card {
@@ -345,7 +344,7 @@ a {
   flex-direction: column;
   gap: 16px;
   background-color: #eceaed;
-  padding: 24px;
+  padding: 32px;
 }
 
 .h__right-card {
@@ -354,6 +353,14 @@ a {
   gap: 16px;
   background-color: #eceaed;
   padding: 24px;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex: 1 1;
+
+  
+}
+
+.h_card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #eceaed;
 }
