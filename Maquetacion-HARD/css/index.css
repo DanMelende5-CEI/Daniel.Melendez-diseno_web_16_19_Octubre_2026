@@ -5,6 +5,7 @@
     --color-grey: #606060;
     --color-light-grey: #F0F0F0;
     --color-bg: #fbfbfb;
+    --color-border: #DEDEDE;
 
     /* Space */
     --space-xxs: 8px;
@@ -68,6 +69,10 @@ p {
     font-size: 15px;
 }
 
+span {
+    font-size: 15px;
+}
+
 .big {
     color: var(--color-grey);
     font-size: 18px;
@@ -82,6 +87,11 @@ p {
 .small {
 
     font-size: 15px;
+    color: var(--color-grey);
+}
+
+.x__small {
+    font-size: 13px;
     color: var(--color-grey);
 }
 
@@ -127,13 +137,13 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: var(--space-md);
 
 
 }
 
 .header__logo {
     max-width: 75px;
-
 }
 
 .header__menu {
@@ -141,53 +151,89 @@ p {
     list-style: none;
     gap: var(--space-lg);
     align-items: center;
-
+    flex-wrap: wrap;
+    flex: 1 1 250px;
 }
 
 /* Hero */
-.hero__banner{
+.hero__banner {
     display: flex;
     flex-direction: column;
     gap: 24px;
     padding: var(--space-xxl) var(--space-md);
-
 }
-.hero__banner__content{
+
+.hero__banner__content {
     display: flex;
     gap: 48px;
     flex-wrap: wrap;
-    
+
 
 }
+
 .hero__banner__left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 24px;
-    flex: 1 1 300px;
-
-
+    flex: 1 1 250px;
 }
+
 .hero__banner__right {
     display: flex;
-    flex: 1 1 300px;
-
+    flex: 1 1 250px;
 }
 
-.hero__banner_links{
+.hero__banner_links {
     display: flex;
-    padding: var(--space-xs);
+    padding-top: var(--space-xs);
     gap: 24px;
     flex-wrap: wrap;
-
 }
+
 .hero__banner__foot {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #DEDEDE;
+    border-top: 1px solid var(--color-border);
     padding-top: var(--space-md);
     flex-wrap: wrap;
     gap: var(--space-xs);
+}
 
+
+/* Services*/
+
+.services{
+    display: flex;
+    gap: var(--space-lg);
+    flex-direction: column;
+    padding: var(--space-xxl) var(--space-md);
 
 }
+.services_head{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.services__cards{
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+}
+.services__text{
+    display: flex;
+    gap: var(--space-xs);
+    flex-direction: column;
+}
+
+.services__card{
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-lg);
+    background-color: var(--color-light-grey);
+    gap: var(--space-md);
+    flex: 1 1 250px;
+
+}
+Projects
