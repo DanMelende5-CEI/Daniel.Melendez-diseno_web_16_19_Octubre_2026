@@ -203,31 +203,34 @@ span {
 
 /* Services*/
 
-.services{
+.services {
     display: flex;
     gap: var(--space-lg);
     flex-direction: column;
     padding: var(--space-xxl) var(--space-md);
 
 }
-.services_head{
+
+.services_head {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
-.services__cards{
+
+.services__cards {
     display: flex;
     gap: var(--space-xs);
     flex-wrap: wrap;
 }
-.services__text{
+
+.services__text {
     display: flex;
     gap: var(--space-xs);
     flex-direction: column;
 }
 
-.services__card{
+.services__card {
     display: flex;
     flex-direction: column;
     padding: var(--space-lg);
@@ -236,4 +239,41 @@ span {
     flex: 1 1 250px;
 
 }
-Projects
+
+/*Projects*/
+
+.projects {
+    display: flex;
+    gap: var(--space-lg);
+    flex-direction: column;
+    padding: var(--space-xxl) var(--space-md);
+}
+
+.projects__cards {
+    display: flex;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+
+
+}
+
+.project__card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+
+
+}
+
+.projects_image {
+    display: flex;
+    flex: 1 1 320px 
+    
+
+}
+
+.project__text{
+    display: flex;
+    gap: var(--space-xs);
+}
