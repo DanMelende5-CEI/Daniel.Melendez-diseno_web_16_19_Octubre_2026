@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="header section">
+    <header class="header">
         <div class="header__block block">
             <img class="header__logo  " src="/Maquetacion-HARD/images/Estudio.svg" alt="">
             <nav>
@@ -25,7 +25,7 @@
         </div>
     </header>
     <main>
-        <section id="Hero">
+        <section class="hero" id="Hero">
             <div class="hero__banner block">
                 <div class="hero__banner__content">
                     <div class="hero__banner__left">
@@ -102,31 +102,38 @@
 
         <section id="Projects">
             <div class="projects block">
-                <h2>Distintas ideas. Una forma de cuidar el detalle.</h2>
-                <span class="small">Una selección de universos visuales que conectan estrategia, emoción y
-                    diseño.</span>
+                <div class="project__block__head">
+                    <h2>Distintas ideas. Una forma de cuidar el detalle.</h2>
+                    <span class="small">Una selección de universos visuales que conectan estrategia, emoción y
+                        diseño.</span>
+                </div>
+
                 <div class="projects__cards">
                     <div class="project__card"> <a href="#">
-                            <div class="projects_image">
-                                <img src="/Maquetacion-HARD/images/project-image1.jpg" alt="Project 1">
-                            </div>
+
+                            <img src="/Maquetacion-HARD/images/project-image1.jpg" alt="Project 1">
+
                             <div class="project__text">
-                                <h3>Aura</h3>
-                                <a class="link" href="#"><i class="ri-arrow-right-up-line"></i></a>
+                                <div class="project_text_title">
+                                    <h3>Aura</h3>
+                                    <a class="link" href="#"><i class="ri-arrow-right-up-line"></i></a>
+                                </div>
+
+
+                                <span class="eyebrow">IDENTIDAD VISUAL · CULTURA</span>
+                                <span>Una identidad viva para una nueva mirada sobre la cultura contemporánea.</span>
                             </div>
-                            <span class="eyebrow">IDENTIDAD VISUAL · CULTURA</span>
-                            <span>Una identidad viva para una nueva mirada sobre la cultura contemporánea.</span>
                         </a>
-                        <div class="project__card"> <a href="#">
-                            <div>
-                                <img src="/Maquetacion-HARD/images/project-image2.jpg" alt="Project 2">
-                            </div>
-                            <div class= "project__text">
-                                <h3>Órbita</h3>
-                                <a class="link" href="#"><i class="ri-arrow-right-up-line"></i></a>
-                            </div>
-                            <span class="eyebrow">IDENTIDAD VISUAL · CULTURA</span>
-                            <span>Una identidad viva para una nueva mirada sobre la cultura contemporánea.</span>
+                    </div>
+                    <div class="project__card"> <a href="#">
+                            <img src="/Maquetacion-HARD/images/project-image2.jpg" alt="Project 2">
+                            <div class="project__text">
+                                <div class="project_text_title">
+                                    <h3>Órbita</h3>
+                                    <a class="link" href="#"><i class="ri-arrow-right-up-line"></i></a>
+                                </div>
+                                <span class="eyebrow">IDENTIDAD VISUAL · CULTURA</span>
+                                <span>Una identidad viva para una nueva mirada sobre la cultura contemporánea.</span>
                         </a>
                     </div>
 
@@ -134,8 +141,71 @@
             </div>
         </section>
 
+        <section id="About">
+            <div class="about block">
+                <div class="about__head">
+                    <h3>Cerca de ti, de principio a fin</h3>
+                    <span class="small">Un proceso claro. Un equipo contigo.</span>
+                </div>
+                <div class="about__content">
+                    <div class="about__content__left">
+                        <img src="/Maquetacion-HARD/images/about-image.png" alt="">
+                        <div class="about__left__text">
+                            <span class="eyebrow">01</span>
+                            <h4>Primero, escuchamos</h4>
+                            <p>Nos sumergimos en tu proyecto. Entendemos tus objetivos, hacemos preguntas y definimos
+                                juntos el punto de partida.</p>
+                        </div>
+                    </div>
+                    <div class="about__content__right">
+                        <div class="about__content_card">
+                            <span class="eyebrow">02</span>
+                            <div class="about__card__text">
+                                <h4>Exploramos y damos forma</h4>
+                                <p>
+                                    Transformamos la estrategia en propuestas. Compartimos ideas, afinamos contigo y
+                                    construimos una solución con intención.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__content_card">
+                            <span class="eyebrow">03</span>
+                            <div class="about__card__text">
+                                <h4>Lo hacemos realidad</h4>
+                                <p>
+                                    Cuidamos la entrega y te damos las herramientas para seguir. Tu marca, lista
+                                    para
+                                    salir al mundo con coherencia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <div class="contact block">
+                <div class="contact__left">
+                    <h2>Tu próxima idea empieza con una conversación.</h2>
+                    <span class="small">Cuéntanos qué tienes en mente. Le daremos forma juntos.</span>
+                </div>
+                <div class="contact__right">
+                    <a class="btn" href="#">Empezar un proyecto</a>
+                    <span>hola@forma.studio</span>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div >
+            <div></div>
+            <div class="legal"></div>
+        </div>
+        
+
+    </footer>
 
 
 </body>

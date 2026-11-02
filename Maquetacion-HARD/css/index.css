@@ -129,8 +129,6 @@ span {
 /*Header*/
 .header {
     padding: var(--space-md);
-
-
 }
 
 .header__block {
@@ -156,11 +154,14 @@ span {
 }
 
 /* Hero */
+.hero{
+padding: var(--space-xxl) var(--space-md);
+}
 .hero__banner {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    padding: var(--space-xxl) var(--space-md);
+    gap: var(--space-md);
+    
 }
 
 .hero__banner__content {
@@ -201,7 +202,7 @@ span {
 }
 
 
-/* Services*/
+/*Services*/
 
 .services {
     display: flex;
@@ -249,11 +250,16 @@ span {
     padding: var(--space-xxl) var(--space-md);
 }
 
+.project__block__head {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
 .projects__cards {
     display: flex;
     gap: var(--space-lg);
     flex-wrap: wrap;
-
 
 }
 
@@ -261,19 +267,105 @@ span {
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
-    flex-wrap: wrap;
-
-
+    flex: 1 1 320px
 }
 
-.projects_image {
+
+.project__text {
     display: flex;
-    flex: 1 1 320px 
-    
+    flex-direction: column;
+    gap: var(--space-xxs);
+}
+
+.project_text_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* About */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    padding: var(--space-xxl) var(--space-md);
+}
+
+.about__head {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-xxs);
+    align-items: end;
 
 }
 
-.project__text{
+.about__content {
     display: flex;
     gap: var(--space-xs);
+    flex-wrap: wrap;
+
 }
+
+.about__content__left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 320px;
+
+}
+
+.about__left__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: var(--space-lg);
+    background-color: var(--color-light-grey);
+}
+
+.about__content__right {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 320px;
+    gap: var(--space-xs);
+}
+
+.about__content_card {
+    display: flex;
+    padding: var(--space-lg);
+    background-color: var(--color-light-grey);
+    gap: var(--space-md);
+    flex: 1 1;
+    justify-content: center;
+}
+
+.about__card__text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+/* Contact */
+
+.contact{
+    display: flex;
+    gap: var(--space-xl);
+    padding: var(--space-xxl) var(--space-md);
+    background-color: var(--color-light-grey);
+    flex-wrap: wrap;
+
+}
+
+.contact__left{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+.contact__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+
+/* Footer*/
