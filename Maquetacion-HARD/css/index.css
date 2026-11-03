@@ -3,9 +3,9 @@
 :root {
     /* Color*/
     --color-grey: #606060;
-    --color-light-grey: #F0F0F0;
+    --color-light-grey: #f0f0f0;
     --color-bg: #fbfbfb;
-    --color-border: #DEDEDE;
+    --color-border: #dedede;
 
     /* Space */
     --space-xxs: 8px;
@@ -17,7 +17,6 @@
 
     /* Grid */
     --grid-2col: repeat(auto-fit, minmax(340px, 1fr));
-
 }
 
 * {
@@ -88,7 +87,6 @@ span {
 }
 
 .small {
-
     font-size: 15px;
     color: var(--color-grey);
 }
@@ -109,12 +107,10 @@ span {
 }
 
 .menu-link {
-
     font-size: 15px;
 }
 
 .link {
-
     font-size: 15px;
     font-weight: 500;
     display: inline-flex;
@@ -127,8 +123,6 @@ span {
     margin: 0 auto;
 }
 
-
-
 /*Header*/
 .header {
     padding: var(--space-md);
@@ -139,8 +133,6 @@ span {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: var(--space-md);
-
-
 }
 
 .logo {
@@ -165,15 +157,12 @@ span {
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
-
 }
 
 .hero__banner__content {
     display: flex;
     gap: 48px;
     flex-wrap: wrap;
-
-
 }
 
 .hero__banner__left {
@@ -205,22 +194,22 @@ span {
     gap: var(--space-xs);
 }
 
-
 /*Services*/
 
 .services {
+    padding: var(--space-xl) var(--space-md);
+}
+
+.services_block {
     display: flex;
     gap: var(--space-lg);
     flex-direction: column;
-    padding: var(--space-xxl) var(--space-md);
-
 }
 
 .services_head {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .services__cards {
@@ -242,16 +231,18 @@ span {
     background-color: var(--color-light-grey);
     gap: var(--space-md);
     flex: 1 1 250px;
-
 }
 
 /*Projects*/
 
 .projects {
+    padding: var(--space-xxl) var(--space-md);
+}
+
+.projects__block {
     display: flex;
     gap: var(--space-lg);
     flex-direction: column;
-    padding: var(--space-xxl) var(--space-md);
 }
 
 .project__block__head {
@@ -264,16 +255,14 @@ span {
     display: flex;
     gap: var(--space-lg);
     flex-wrap: wrap;
-
 }
 
 .project__card {
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
-    flex: 1 1 320px
+    flex: 1 1 320px;
 }
-
 
 .project__text {
     display: flex;
@@ -291,12 +280,10 @@ span {
     padding: var(--space-xxl) var(--space-md);
 }
 
-
 .about__block {
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
-
 }
 
 .about__head {
@@ -305,21 +292,18 @@ span {
     flex-wrap: wrap;
     gap: var(--space-xxs);
     align-items: end;
-
 }
 
 .about__content {
     display: flex;
     gap: var(--space-xs);
     flex-wrap: wrap;
-
 }
 
 .about__content__left {
     display: flex;
     flex-direction: column;
     flex: 1 1 320px;
-
 }
 
 .about__left__text {
@@ -358,12 +342,10 @@ span {
     padding: var(--space-xxl) var(--space-md);
 }
 
-
 .trabajos__block {
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
-
 }
 
 .trabajos__head {
@@ -401,22 +383,21 @@ span {
     gap: var(--space-xs);
 }
 
-.trabajos__card.feature .trabajos__card-content{
+.trabajos__card.feature .trabajos__card-content {
     padding: var(--space-lg);
-
 }
 
 /* Contact */
-.contact{
-padding: var(--space-xxl) var(--space-md);
+.contact {
+    padding: 0 var(--space-md);
 }
+
 .contact_block {
     display: flex;
     gap: var(--space-xl);
     padding: var(--space-xl);
     background-color: var(--color-light-grey);
     flex-wrap: wrap;
-
 }
 
 .contact__left {
@@ -432,6 +413,49 @@ padding: var(--space-xxl) var(--space-md);
     gap: var(--space-md);
 }
 
-
 /* Footer*/
 
+.footer {
+    padding: var(--space-xl) var(--space-lg) var(--space-md);
+}
+
+.footer__block {
+    display: flex;
+    gap: var(--space-lg);
+    flex-direction: column;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xxs);
+    flex: 1 1 250px;
+}
+
+.footer__link {
+    display: flex;
+    gap: var(--space-lg);
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.legal {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    border-top: 1px solid ;
+    border-color: var(--color-border);
+    padding-top: var(--space-md)
+    ;
+}
