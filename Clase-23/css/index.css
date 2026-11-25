@@ -64,7 +64,7 @@ section {
     min-height: 100vh;
     background-color: cornsilk;
 
-    animation-name: ;
+    /*animation-name: ;*/
     animation-duration: 4s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     animation-iteration-count: infinite;
@@ -76,7 +76,8 @@ div {
     border-radius: 100%;
     background-color: coral;
 
-    animation-name: ;
+    
+    /*animation-name: ;*/
     animation-duration: 4s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     animation-iteration-count: infinite;
